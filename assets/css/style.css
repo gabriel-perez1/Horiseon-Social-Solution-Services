@@ -73,6 +73,8 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    float: left;
+    overflow: auto;
 }
 
 .benefits {
