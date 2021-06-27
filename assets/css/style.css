@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: var(--off-white);
 }
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    font-family: var(--header-footer-font);
+    background-color: var(--dark-blue);
+    color: var(--white);
 }
 
 header h1 {
@@ -21,14 +21,14 @@ header h1 {
 }
 
 header h1 .seo {
-    color: #d9dcd6;
+    color: var(--off-white);
 }
 
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: var(--main-font);
     font-size: 20px;
 }
 
@@ -42,7 +42,7 @@ header nav ul li {
 }
 
 a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: var(--hero);
     background-size: cover;
     background-position: center;
 }
@@ -71,7 +71,6 @@ p {
 
 .content {
     width: 75%;
-    display: inline-block;
     margin-left: 20px;
     float: left;
 }
@@ -86,10 +85,10 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    font-family: var(--main-font);
+    background-color: var(--blue);
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .benefits h3{
@@ -107,9 +106,9 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    font-family: var(--main-font);
+    background-color: var(--blue);
+    color: var(--white);
 }
 
 .content h2 {
@@ -120,7 +119,7 @@ p {
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--header-footer-font);
     text-align: center;
 }
 
