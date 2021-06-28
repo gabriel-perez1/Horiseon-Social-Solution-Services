@@ -12,3 +12,6 @@ This site is intellectual property of Horiseon Social Solution Services, Inc. Al
 
 ## Link
 [Horiseon Social Solution Services, Inc](https://gabriel-perez1.github.io/Horiseon-Social-Solution-Services/)
+
+## Challenge
+Refactoring the provided starter code to make it more accesible and easy to read.
