@@ -1,3 +1,4 @@
+/*Horiseon site styling*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +8,8 @@
 body {
     background-color: var(--off-white);
 }
+
+/*header style starts*/
 header {
     padding: 20px;
     font-family: var(--header-footer-font);
@@ -19,10 +22,12 @@ header h1 {
     font-size: 48px;
 }
 
+/*changes color of the 'seo' characters in the header*/
 header h1 span {
     color: var(--off-white);
 }
 
+/*navigation style*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,7 +44,9 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/*header style ends*/
 
+/*hyperlink and paragraph style*/
 a {
     color: var(--white);
     text-decoration: none;
@@ -49,6 +56,7 @@ p {
     font-size: 16px;
 }
 
+/*background image style*/
 .hero {
     height: 800px;
     width: 100%;
@@ -56,6 +64,31 @@ p {
     background-image: var(--hero);
     background-size: cover;
     background-position: center;
+}
+
+/*main content style starts*/
+.content {
+    width: 75%;
+    margin-left: 20px;
+    float: left;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.objectives {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: var(--main-font);
+    background-color: var(--blue);
+    color: var(--white);
 }
 
 .float-left {
@@ -67,17 +100,9 @@ p {
     float: right;
     margin-left: 25px;
 }
+/*main content style ends*/
 
-.content {
-    width: 75%;
-    margin-left: 20px;
-    float: left;
-}
-
-.content img {
-    max-height: 200px;
-}
-
+/*aside content style starts*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,20 +126,9 @@ p {
     max-width: 150px;
 }
 
-.objectives {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: var(--main-font);
-    background-color: var(--blue);
-    color: var(--white);
-}
+/*aside content style ends*/
 
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*footer style*/
 footer {
     padding: 30px;
     clear: both;
